@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I installed Python 2.7 because it was already on my computer and I had started learning it through Learning Python the Hard Way. I had also heard from a scientist friend that not everything that is available for 2.7 is available in 3.5 and that it would be easy to pick up the latter later on. Since the course materials are in Python 2.7 it also seemed like it would be easier for the purposes of Metis.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> You can type 'python' into the Terminal
 
  
 
