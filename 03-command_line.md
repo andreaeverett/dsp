@@ -9,7 +9,7 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >  
 
 ---
 
@@ -39,7 +39,12 @@ ls -Glp : Again the contents are provided in long format. The -G color codes the
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > I like the following five:  
+ls -R : This is my favorite; it displays the contents of the subdirectories.  This seems as if it would be useful quite often.  
+ls -g: This is like long format, but without listing the owner. It seems useful if you’re only working with your own files, to avoid listing unnecessary info on your screen.  
+ls -1 : I like that this displays the entries in a single column, which I find easier to read.  
+ls -r: This displays files in reverse order. It seems it would be useful if you were looking for a file you had made a long time ago or had not modified in a long time, perhaps combined with -t or -c.  
+ls -G: I know this was covered above, but I didn’t really see how many of the other options would be that useful most of the time. The option to display the subdirectories in a different color from the files, though, seems really helpful for quickly seeing what you have in your directory.  
 
 ---
 
