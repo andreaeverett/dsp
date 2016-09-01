@@ -40,7 +40,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs allows you to process a list of arguments by running a command repeatedly on each element in the list.
+A simple example is:  
+find . -name '*.txt' | xargs grep 'Hello world'  
+This tells the shell to find all .txt files in the current directory and for each one that contains the text 'Hello world,' to print the filename along with any lines that contain that string.
 
  
 
