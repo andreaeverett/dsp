@@ -9,7 +9,53 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> >  
+> >  **Commands**  
+  
+**pwd** : Print working directory to see where you are currently located.  
+  
+**cd** : Change directory (cd ~ goes home, cd .. goes up one level)  
+  
+**mkdir** : Usage is mkdir *directoryname*.  Make a directory called *directoryname*.  
+  
+**ls** : List the contents of a directory  
+  
+**touch** : Usage is touch *newfilename*.  Creates a new file under *newfilename*.  
+  
+**cp** : Usage is cp *filename newname*.  This will overwrite an existing file called *newname*.  Can also be used for directories. Adding -r says to copy everything in the directory.  
+  
+**rmdir** : Usage is rmdir *directoryname*. Removes / deletes *directoryname*.  
+  
+**mv** : Usage is mv *filename newname*. Moves *filename* to location *newname* (that is, renames it).  
+  
+**rm - rf** : Remove a directory and all its contents. Nice because it can be used to quickly get rid of a bunch of stuff, but for this reason must be also be careful with this.  
+  
+**man** : Usage is man *command*. Takes me to the help page for *command*.  
+  
+**star** (\*) : Matches anything in a wild card, like \*.txt or \*.mp4.  
+  
+**find** : Usage is find STARTDIRECTORY -name WILDCARD -print.  Let’s me find and list all files whose names meet the criteria defined by WILDCARD.  
+  
+**grep** : Usage is grep ’Text’ *filename*.  Prints all the lines containing ‘Text’ in *filename*.  
+  
+**cat** : Usage is cat *filename*.  Shows contents of *filename* in the terminal window.    
+  
+**less** : Usage is less *filename*.  Shows contents of *filename* in a super-imposed terminal window.  
+  
+**xargs** : Lets you process a list of arguments by running a command on each element in the list.  
+  
+**exit** : Exits the terminal.  
+  
+**pushd** : Usage is either pushd *newlocation* or without an argument. The former saves your current location and takes you to the new one. The latter takes you back to the last location you pushed.  
+  
+**popd** : Takes you back to the last directory you pushed. You have to remember what that was. 
+  
+**>** : Usage is *command* > *filename*.  Takes the output of the command on the left and writes it to the file on the right (overwrites *filename*).  
+  
+**>>** : Usage is *command* > *filename*.  Takes the output of the command on the left and appends it to the file on the right.  
+  
+**<** : Usage is *command* < *filename*.  Takes the input from the file on the right and sends it to the command on the left.  
+  
+**|** : Usage is *command_a* | *command_b*.  Takes the output from the command on the left and pipes it into the command on the right.
 
 ---
 
