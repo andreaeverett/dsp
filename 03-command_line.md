@@ -24,7 +24,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+ls : Lists the contents of a directory.  
+ls -a : Lists all files and subdirectories, even if their names begin with a dot (.).  
+ls -l : Lists the contents of the directory in long format. This includes information about the file mode, size, owner, group, and last modification date and time.  
+ls -lh :  The addition of the ‘h’ modifies the long format to refer to the size of each item using unit suffixes for B, K, M, etc.  
+ls -lah : This combines the results of -lh and -a. Items beginning with a dot are included, the long format information is provided, and file sizes are listed with unit suffixes.  
+ls -t : This sorts the listed directory items by time modified (with the most recently modified listed first).  
+ls -Glp : Again the contents are provided in long format. The -G color codes the items according to their format. In my terminal, directories are blue and text files are black. The -p part adds an additional slash (/) after the name of each subdirectory.  
 
 ---
 
