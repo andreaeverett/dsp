@@ -68,6 +68,36 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+**What graphical editor will you use? How did you make your decision?** 
 
- 
+I have been using TextWrangler, but after looking at some of the other suggestions here I am going to start working with Atom and trying to get comfortable with it.  From what I’ve read Atom and Sublime are similar but the former is free and I like the idea of being able to access packages written by other users if they look like they will come in handy.  As for Emacs and Vim, I don’t think I have enough coding experience to use those for all of my coding needs at this point, given their high learning curve.  Further, while it seems likely that I might want to learn one of the IDEs at some point, for now I think I will be more comfortable with a simpler environment with just one window to focus on at a time.
+
+**What are some interesting features of your editor?**  
+
+1. This might be standard among the fancier text editors, but it was new to me: When I open a bracket or a parenthesis or a curly brace, it automatically creates a closing one for me.  That’s pretty neat.  
+
+2. Another thing that looks neat is that I can create ‘snippets’ that will basically serve as saved shortcuts to generate specific blocks of text.  This looks like it could be useful for things I type a lot.
+
+3. It supports the syntax for many different languages.  For instance, it appears I can use it for files in python but also SQL.
+
+4. In my Terminal, if I want to create a new file and open it in Atom, I can type ‘atom newfile’ instead of ‘touch newfile’ and it will create and open the new file in Atom automatically.  This seems like a handy feature for sure.
+
+**What are some useful keyboard shortcuts for your editor?**
+
+cmd-R : When you are in a file, this pulls up a list of methods / functions in the file and lets you choose one to jump to.
+
+cmd-P: Lets you search for a file by name from within the text editor window.
+
+cmd-shift-P : It brings up the command palette, which lists every Atom command.  You can search there as well.
+
+cmd-e : Find-and-replace, using the highlighted selection as the ‘find’ pattern.
+
+ctrl-g : Lets you enter a specific line number to jump to.
+
+ctrl-m : If my cursor is at a bracket or curly brace or parenthesis, this will move it to the matching one.
+
+ctrl-shift-L : Brings up a menu to select which language (grammar) you are using for the currently open file
+
+**How do you customize your editor?**
+
+I’m sure there are more things that I could customize than I have done so far.  But an obvious one is the choice from among several themes (under Settings —> Themes), which set the background and text colors for both the UI and the syntax inside the editor.  The basic choice appears to be between a light background with dark text or a dark background and higher text colors, although there are variations on each of these.  Another way to customize it is that you can disable individual packages under Settings —> Packages.  For instance, I disabled one that sends certain information about my usage of Atom to Google Analytics.  
