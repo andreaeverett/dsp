@@ -29,7 +29,6 @@ If you intend to use a graphical editor that doesn't run in a terminal, nano mig
 Both Emacs and vim have built-in interactive tutorials that you can try.
 
 
-
 ---
 
 ###Graphical Editor
@@ -58,15 +57,15 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 ###Q1. Terminal Editor
 
-What terminal editor will you use? How did you make your decision?
+**What terminal editor will you use? How did you make your decision?**
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I am going to use vim.  Since I’ve never used any of the three before and you say I need to have at least a basic competency in vim, I think it makes the most sense to focus on that one.  Although it sounds more difficult than nano, it also sounds as if I can learn enough to do some basic things and then learn more later if it becomes clear that doing so would be useful.  I completed the vim tutorial.
 
 --
 
 ###Q2. Graphical Editor
 
-What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
+**What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?**
 
 **What graphical editor will you use? How did you make your decision?** 
 
