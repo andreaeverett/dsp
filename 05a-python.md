@@ -20,9 +20,31 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Sets are like lists in that they are collections of values.  However, sets are immutable and they contain only unique elements (no duplicate entries).  Sets are also unordered whereas lists are indexed.  Sets are suitable for identifying distinct items from a list, and they are also faster for finding a specific item than lists.  With lists, you have to check each element in the list against the potential list member, whereas sets use hash functions and hash tables.  My understanding of how a hash function / hash table works is very elementary, but I believe the idea here is this: take a potential member of a set, run it through the hash function, get an output, and then use that output to see if the potential set member matches any known member of the set that returns the same output when put through the hash function.  Compared with lists, this reduces (perhaps dramatically) the number of comparisons that need to be made in order to determine if a potential set member is indeed in the set.   
+
+**Examples**  
+*First use a list to count how often a given item shows up:*  
+*Note: Sorry about the function, I couldn't figure out how to get markdown to show my indentations.*
+
+letters = ['a', 'b', 'c', 'i', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'i']  
+def count_letters(list):  
+  count = 0   
+  for letter in letters:  
+    if letter == 'i':  
+      count += 1  
+  return count  
+
+print count_letters(letters)  
+
+*Next use a set to determine whether an item is there:*
+
+letters_set = set(letters)  
+print 'i' in letters_set  
+
+
 
 ---
+
 
 ###Q3. Lambda Function
 
