@@ -50,7 +50,12 @@ print 'i' in letters_set
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lambda is a statement that is typically used to create simple functions that will be used only once.  Because they won’t be called repeatedly, these functions don’t receive names (they are anonymous).  Here is a simple example that helps to sort a list of characters in backwards alphabetical order:  
+
+>>> list = ['d', 'z', 'x', 'f', 'b', 'l']  
+>>> backwards_list = sorted(list, key = lambda(i): i, reverse = True)  
+>>> backwards_list  
+	['z', 'x', 'l', 'f', 'd', 'b']  
 
 ---
 
