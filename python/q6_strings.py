@@ -2,6 +2,7 @@
 # Licensed under the Apache License, Version 2.0
 
 
+# 1
 def donuts(count):
     """Given an int count of a number of donuts, return a string of the
     form 'Number of donuts: <count>', where <count> is the number
@@ -12,7 +13,13 @@ def donuts(count):
     else:
         print 'many'
 
+donuts(4)
+donuts(9)
+donuts(10)
+donuts(99)
 
+
+# 2
 def both_ends(s):
     """
     Given a string s, return a string made of the first 2 and the last
@@ -24,7 +31,13 @@ def both_ends(s):
     else:
         print '%s%s' % (s[0:2], s[-2:])
 
+both_ends('spring')
+both_ends('Hello')
+both_ends('a')
+both_ends('xyz')
 
+
+# 3
 def fix_start(s):
     """
     Given a string s, return a string where all occurences of its
@@ -38,7 +51,13 @@ def fix_start(s):
     s = s.replace('*', replace_letter, 1)
     print s
 
+fix_start('babble')
+fix_start('aardvark')
+fix_start('google')
+fix_start('donut')
 
+
+# 4
 def mix_up(a, b):
     """
     Given strings a and b, return a single string with a and b
@@ -48,10 +67,15 @@ def mix_up(a, b):
     end_a = a[2:]
     start_b = b[0:2]
     end_b = b[2:]
-
     print '%s%s %s%s' % (start_b, end_a, start_a, end_b)
 
+mix_up('mix', 'pod')
+mix_up('dog', 'dinner')
+mix_up('gnash', 'sport')
+mix_up('pezzy', 'firm')
 
+
+# 5
 def verbing(s):
     """
     Given a string, if its length is at least 3, add 'ing' to its end.
@@ -66,7 +90,12 @@ def verbing(s):
         s = s + ly
     print s
 
+verbing('hail')
+verbing('swiming')
+verbing('do')
 
+
+# 6
 def not_bad(s):
     """
     Given a string, find the first appearance of the substring 'not'
@@ -81,7 +110,13 @@ def not_bad(s):
         s = pre_not + good + post_bad
     print s
 
+not_bad('This movie is not so bad')
+not_bad('This dinner is not that bad!')
+not_bad('This tea is not hot')
+not_bad("It's bad yet not")
 
+
+# 7
 def front_back(a, b): # Sorry, I don't think this one is very pythonic! I tried to loop over a and b but couldn't get that to work.
     """
     Consider dividing a string into two halves. If the length is even,
@@ -102,5 +137,8 @@ def front_back(a, b): # Sorry, I don't think this one is very pythonic! I tried 
     else:
         b_front = b[0:len(b)/2 + 1]
         b_back = b[len(b)/2 + 1:]
-
     print a_front + b_front + a_back + b_back
+
+front_back('abcd', 'xy')
+front_back('abcde', 'xyz')
+front_back('Kitten', 'Donut')
