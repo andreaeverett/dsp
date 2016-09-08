@@ -1,3 +1,5 @@
+# Use Python to compute days between start and stop date.
+
 from datetime import *
 
 # Create 2 lists, one for start dates and the other for end dates
