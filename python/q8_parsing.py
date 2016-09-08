@@ -8,7 +8,6 @@ football_scores = csv.DictReader(open('football.csv'))
 mindifference = None
 city = None
 for teamstats in football_scores:
-    teamstats['Goal Differential'] = int(teamstats['Goals']) - int(teamstats['Goals Allowed'])
     goaldifferential = abs(int(teamstats['Goals']) - int(teamstats['Goals Allowed']))
     if mindifference == None or mindifference > goaldifferential:
         mindifference = goaldifferential
