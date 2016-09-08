@@ -63,7 +63,41 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> A list comprehension is a way to create one list from another list or sequence by applying a function to the original list that returns an output which is put in the new list.  List comprehensions can be used to do the same work as a for loop, or as using the map or filter function.  They can be fit on a single line if they are relatively simple.  From what I have gathered, programmers often prefer them to for loops.  I haven’t been able to find a clear explanation of differences in their capabilities relative to map and filter, however.  
+
+Here are two examples of list comprehensions, one of which can also be done with a map and the other with a filter, as shown.  For good measure I include a for loop for the first one as well.  
+
+Create a list of numbers  
+numbers = range(20)  
+
+List comprehension examples:  
+evens = [num for num in numbers if num % 2 == 0]   # example 1  
+squares = [num * num for num in numbers]   # example 2  
+
+Filter version of example 1  
+evens = filter(lambda num: num % 2 == 0, numbers)   
+
+Mapping version of example 2 (it doesn't seem to make sense to use map to reduce the size of a list)  
+squares = map(lambda num: num * num, numbers)       
+
+For loop version of example 1:  
+evens = []  
+for num in numbers:  
+    if num % 2 == 0:  
+        evens.append(num)  
+
+
+Here is an example of a set comprehension: It takes two lists and returns a new list composed of those items that are in both lists.  
+
+dog_names = {'Fido', 'Lassie', 'Rover', 'Spot'}  
+cat_names = {'Whiskers', 'Spot', 'Snowflake', 'Henry'}  
+cat_or_dog = {x for x in dog_names if x in cat_names}   
+
+
+And here is an example of a dictionary comprehension: It takes a dictionary of State : City pairs and returns a new dictionary in which the city names are printed in all capital letters.  
+
+cities_states = {'WA': 'Seattle', 'CA': 'San Francisco', 'CO': 'Denver'}  
+sorted_by_city = {key: value.upper() for key, value in cities_states.items()}
 
 ---
 
@@ -112,8 +146,3 @@ Edit the 5 functions in [q7_lists.py](python/q7_lists.py)
 
 ###Q8. Parsing
 Edit the 3 functions in [q8_parsing.py](python/q8_parsing.py)
-
-
-
-
-
