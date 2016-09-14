@@ -12,6 +12,7 @@ import thinkstats2
 import first  
 
 *Generate dataframes for live births, first births, and others. Then calculate Cohen's d for firsts vs. others.*  
+*Sorry I still can't figure out how to indent in a markdown file.*  
 def main(script):  
     live, firsts, others = first.MakeFrames()   
     d = thinkstats2.CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)   
@@ -21,4 +22,4 @@ if __name__ == '__main__':
     main(*sys.argv)  
 
 
-*Running this, Python returns -0.0886729270726 as Cohen's d. This is about 3 times bigger in absolute value than the .029 figure returned for pregnancy length as described in the book. Another key difference is the opposite sign, which indicates that first babies are on average smaller than later babies, even though they arrive a bit later.*
+*Running this, Python returns -0.0886729270726 as Cohen's d. This is about 3 times bigger in absolute value than the .029 figure returned for pregnancy length as described in the book. Another key difference is the opposite sign, which indicates that first babies are on average smaller than subsequent babies, even though they arrive a bit later.*
