@@ -6,7 +6,7 @@
 from scipy.stats import norm
 
 *STEP 2: Transform minimum & maximum heights to centimeters. The markdown language is causing the multiplication not to show up properly.*  
-minheight = (5*12 + 10)*2.54 
+minheight = (5*12 + 10)*2.54   
 maxheight = (6*12 + 1)*2.54      
 
 *STEP 3: Set mean and variance*  
