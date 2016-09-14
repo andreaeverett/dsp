@@ -12,7 +12,7 @@ import thinkplot
 resp = chap01soln.ReadFemResp()  
 numkids = resp['numkdhh']  
 
-*STEP 3: Construct the 'correct' PMF, find the mean, and display the PMF*
+*STEP 3: Construct the 'correct' PMF, find the mean, and display the PMF*  
 pmf_kids = thinkstats2.Pmf(numkids)  
 print('mean', pmf_kids.Mean())  
 
