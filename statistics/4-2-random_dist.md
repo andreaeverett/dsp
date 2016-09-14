@@ -10,7 +10,7 @@ import thinkplot
 *STEP 2: Generate the random sample*  
 sample = np.random.random(1000)  
 
-*STEP 3: Create and plot the PMF**  
+*STEP 3: Create and plot the PMF*    
 pmf_random = thinkstats2.Pmf(sample)  
 thinkplot.Pmf(pmf_random, label = 'Random PMF')  
 thinkplot.Show(block = True)  
