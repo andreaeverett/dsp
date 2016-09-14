@@ -7,8 +7,8 @@ from scipy.stats import norm
 
 *STEP 2: Transform minimum & maximum heights to centimeters*  
 minheight = (5*12 + 10)  
-maxheight = (6*12 + 1)
-minheight = minheight*2.54
+maxheight = (6*12 + 1)  
+minheight = minheight*2.54  
 maxheight = maxheight*2.54    
 
 *STEP 3: Set mean and variance*  
