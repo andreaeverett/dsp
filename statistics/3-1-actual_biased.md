@@ -51,7 +51,7 @@ def BiasPmf(pmf, label=''):
 biasedpmf_kids = BiasPmf(pmf_kids, label = 'Reported by kids')  
 print('mean', biasedpmf_kids.Mean())  
 
-**The resulting mean returned is 2.4036791006642821. So if we were to make inferences about family size from asking kids, we would over-state the true number of kids per household by almost 1.4**  
+**The resulting mean returned is 2.4036791006642821. So if we were to make inferences about family size from asking kids, we would over-state the true number of kids per household by almost 1.4.**  
 
 *STEP 6: Display the two PMFs together*  
 thinkplot.PrePlot(2)  
