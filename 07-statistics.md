@@ -70,7 +70,7 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
-Probability (Identical | Is a twin) -->  
+>> Probability (Identical | Is a twin) -->  
 Probability (Is identical) * Probability (Is a twin | Is identical )/ Probability (Is a twin) -->  
 (1/300)* (1)/ (1.0/125 + 1.0/300) -->  
 .00333333333 / .0113333333333 -->  
@@ -81,11 +81,11 @@ Probability (Is identical) * Probability (Is a twin | Is identical )/ Probabilit
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?  
 
-In frequentist statistics we begin with some data and assumptions about how to model the parameter(s) or relationships we are interested in.  These underlying parameters are treated as fixed in the broader population of which our data is assumed to be representative (ideally a random sample).  We then use the sample and the model to generate a precise estimate of the 'true' values of these parameters in the broader population (typically with a confidence interval around our estimates to represent our certainty about them).   
+*In frequentist statistics we begin with some data and assumptions about how to model the parameter(s) or relationships we are interested in.  These underlying parameters are treated as fixed in the broader population of which our data is assumed to be representative (ideally a random sample).  We then use the sample and the model to generate a precise estimate of the 'true' values of these parameters in the broader population (typically with a confidence interval around our estimates to represent our certainty about them).   
 
 In Bayesian statistics we also begin with some data and assumptions about how to model the parameter(s) or relationships we are interested in.  But in addition, we have some further information or assumptions called priors, which might relate to the structure of the data or some relevant piece of history about what has happened in the past.  We incorporate those priors into our modeling, and we can also update them as more information comes in.  In addition, the underlying parameters of interest are described in terms of probabilities rather than fixed values or point estimates, whereas the observed data are assumed to be fixed (that is, we don't assume that they are a random draw from a known distribution).    
 
-To give an example, imagine we observe a coin being tossed 20 times, and on 16 of those occasions it comes up heads.  A frequentist would only incorporate information from those 20 tosses to estimate the probability that the next toss (or tosses) would be heads.  In contrast, a Bayesian might say, 'But I have prior knowledge that this is a fair coin and that both heads and tails should be equally likely on any given toss.'  If the Bayesian were to incorporate this information **along with** the information from the 20 observed tosses into her estimate, she would come up with a lower estimate of the probability that the next toss would be a head than the frequentist would.  
+To give an example, imagine we observe a coin being tossed 20 times, and on 16 of those occasions it comes up heads.  A frequentist would only incorporate information from those 20 tosses to estimate the probability that the next toss (or tosses) would be heads.  In contrast, a Bayesian might say, 'But I have prior knowledge that this is a fair coin and that both heads and tails should be equally likely on any given toss.'  If the Bayesian were to incorporate this information along with the information from the 20 observed tosses into her estimate, she would come up with a lower estimate of the probability that the next toss would be a head than the frequentist would.*  
 
 ---
 
