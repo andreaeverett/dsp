@@ -36,7 +36,7 @@ for percent in [75, 50, 25]:
 
 thinkplot.Show(xlabel='Mother Age', ylabel='Birth Weight (lbs)', axis=[10, 45, 0, 15])  
 
-*STEP 5: Compute Pearson's and Spearman's correlations*
+*STEP 5: Compute Pearson's and Spearman's correlations*  
 print ("Pearson's Correlation", thinkstats2.Corr(live.agepreg, live.totalwgt_lb))  
 print ("Spearman's Correlation", thinkstats2.SpearmanCorr(live.agepreg, live.totalwgt_lb))  
 
